@@ -29,10 +29,12 @@ This project is a Python application that connects to the Alpha Vantage API to f
     pip install -r requirements.txt
     ```
 
-4. **Create a `.env` file**:
-    ```bash
-    echo "ALPHA_VANTAGE_API_KEY=your_api_key_here" > .env
-    ```
+4. **Get .env variables from Alpha Vantage**:
+    - Sign up at [Alpha Vantage](https://www.alphavantage.co/support/#api-key) to get your API key.
+    - Create a `.env` file in the project directory and add your API key:
+      ```bash
+      echo "ALPHA_VANTAGE_API_KEY=your_api_key_here" > .env
+      ```
 
 5. **Run the application**:
     ```bash
